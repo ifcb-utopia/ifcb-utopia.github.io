@@ -4,6 +4,14 @@ layout: home
 nav_order: 1
 ---
 
+# Disclaimer:
+
+This website is currently under construction. The layout and page contents are subject to frequent change. 
+
+Last update: 6 June 2024
+
+# Template Information:
+
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
 If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.

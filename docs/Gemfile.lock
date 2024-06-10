@@ -276,6 +276,7 @@ DEPENDENCIES
   csv
   github-pages (~> 231)
   http_parser.rb (~> 0.6.0)
+  jekyll (~> 3.9.5)
   jekyll-feed (~> 0.12)
   just-the-docs (= 0.8.2)
   tzinfo (>= 1, < 3)

@@ -5,6 +5,6 @@ nav_order: 2
 parent: Data Pipeline
 ---
 
-# Information on Raw IFCB Data Format
+# Information on the Raw IFCB Data Format
 
 ...

@@ -10,3 +10,5 @@ parent: Background
 *plankton bkg*
 
 *plankton classes*
+
+*plankton resources*

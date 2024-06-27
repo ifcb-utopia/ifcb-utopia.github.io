@@ -10,13 +10,4 @@ nav_order: 1
 
 This website is currently under construction. The layout and page contents are subject to frequent change. 
 
-Last update: 6 June 2024
-
-# Template Information:
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Last update: 26 June 2024

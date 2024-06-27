@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# ![Image](/assets/images/logo.png){: width="50"} ifcbUTOPIA
+# ![Image](/assets/images/logo.png){: width="40"} ifcbUTOPIA
 
 **Welcome to the documentation website for ifcbUTOPIA, an open-source project by researchers at the University of Washington to develop User-Friendly Tools for Oceanic Plankton Image Analysis (UTOPIA) with data from the Imaging FlowCytobot (IFCB).** 
 

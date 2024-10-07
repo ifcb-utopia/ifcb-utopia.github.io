@@ -1,8 +1,8 @@
 ---
-title: SeaBASS Format
+title: SeaBASS
 layout: default
-nav_order: 3
-parent: data-pipeline
+nav_order: 7
+parent: background
 ---
 
 # SeaBASS Format Preparation

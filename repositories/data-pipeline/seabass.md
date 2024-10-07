@@ -1,8 +1,8 @@
 ---
 title: SeaBASS Format
 layout: default
-nav_order: 9
-parent: Data Pipeline
+nav_order: 2
+parent: data-pipeline
 ---
 
 # SeaBASS Format Preparation

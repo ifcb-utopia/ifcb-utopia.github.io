@@ -6,7 +6,7 @@ has_children: true
 parent: Repositories
 ---
 
-# `data-pipeline` Repository
+# `data-pipeline`
 
 This repository contains a folder of programs - `utopia_pipeline_tools` - and a set of marimo notebooks to streamline the data processing pipeline from raw IFCB images to CNN-classified datasets, with additional tools to set up PIVOT for validation. The pipeline steps are shown below:
 

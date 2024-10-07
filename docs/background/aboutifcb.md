@@ -7,6 +7,8 @@ nav_order: 2
 
 # About IFCB
 
+![ifcb_image](/assets/images/IFCB.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
 The Imaging FlowCytobot (IFCB) is a submersible in-flow instrument developed by Heidi Sosik and Robert Olson to address the need for nano- and microplankton imaging. The IFCB enables long-term, continuous observations of plankton communities and aids researchers in understanding the structures of the communities and the processes and interactions that determine the species' life cycles. Our ifcbUTOPIA project is developing a machine learning classification system specific to data gathered by IFCBs globally.  
 
 The IFCB images phytoplankton in the 10 – 100 micrometer range at a water sampling rate of 5 mL/20 min and can operate autonomously for months. It uses video and flow cytometric technology to obtain images of individual organisms and measure chlorophyll fluorescence. By incorporating detection of chlorophyll fluorescence as a trigger, the IFCB can more efficiently capture images of phytoplankton for analysis.  
@@ -24,3 +26,5 @@ The IFCB is manufactured and distributed by McLane Labs. Specifications and oper
 [IFCB Dashboard](https://ifcb-data.whoi.edu/dashboard)  
 
 [Harmful Algal Bloom Dashboard](https://stage-habdac-streamlit.srv.axds.co/)
+
+

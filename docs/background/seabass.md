@@ -2,7 +2,7 @@
 title: SeaBASS
 layout: default
 nav_order: 6
-parent: background
+parent: Background
 ---
 
 # SeaBASS Format Preparation

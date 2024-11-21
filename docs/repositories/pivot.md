@@ -5,9 +5,11 @@ nav_order: 3
 parent: Repositories
 ---
 
+# PIVOT
+
 This repository contains the code required to run the Phytoplankton Image Validation Optimization Toolkit (PIVOT) streamlit application locally.  
 
-# Installation and Setup Instructions
+## Installation and Setup Instructions
 
 __Installations:__
 

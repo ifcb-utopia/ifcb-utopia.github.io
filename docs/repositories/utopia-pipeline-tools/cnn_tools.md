@@ -31,7 +31,7 @@ input dimensions of the CNN.
 
 ---
 
-#### `load_local_model(json_file_path, h5_file_path):
+#### `load_local_model(json_file_path, h5_file_path)`:
 Loads locally saved model as Tensorflow keras model.
 
 ##### Parameters:
@@ -43,12 +43,12 @@ Loads locally saved model as Tensorflow keras model.
 
 ---
 
-#### `load_cloud_model():
+#### `load_cloud_model()`:
 - Not yet written.
 
 ---
 
-#### `predict_labels():
+#### `predict_labels()`:
 - Not yet written.
 
 ---

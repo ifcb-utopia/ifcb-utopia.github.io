@@ -27,6 +27,8 @@ input dimensions of the CNN.
 ##### Returns:
 - rescaled_image (list): Rescaled IFCB image(s).
 
+---
+
 #### `load_local_model(json_file_path, h5_file_path):
 Loads locally saved model as Tensorflow keras model.
 
@@ -37,8 +39,14 @@ Loads locally saved model as Tensorflow keras model.
 ##### Returns:
 - loaded_model (tf.keras.Model): Loaded keras model.
 
+---
+
 #### `load_cloud_model():
 - Not yet written.
 
+---
+
 #### `predict_labels():
 - Not yet written.
+
+---

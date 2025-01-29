@@ -67,8 +67,12 @@ Generates the string of a single SeaBASS file. Uses the first csv in the full da
 ##### Returns:
 - sb_string (str): A SeaBASS-formatted string with all header information and image data. 
 
+---
+
 #### `make_seabass_files(self)`:
 Loops over all samples in the dataset, generating a SeaBASS file for each sample and saving it to a local folder called: {cruise}_SeaBASS_{data_status}.
+
+---
 
 #### `compile_header(self, sample_filename, sample_df)`:
 Calls the values stored in the header_values dictionary, generates some additional sample-specific values, and puts them in the header format required for SeaBASS files. 
@@ -83,6 +87,8 @@ Calls the values stored in the header_values dictionary, generates some addition
 ##### Returns:
 - header (str): The header section of the SeaBASS file. 
 
+---
+
 #### `extract_sample_ID(self, filepath)`:
 Extracts the sample ID (of the form DYYYYMMDDTHHMMSS_IFCB###). This is the name of the sample folder and is included in the filenames of all sample images. Assumes IFCB number has three digits.
 
@@ -91,6 +97,8 @@ Extracts the sample ID (of the form DYYYYMMDDTHHMMSS_IFCB###). This is the name 
 
 ##### Returns:
 - sampleID (str): Includes a string of letters and numbers representing the date and time of when the sample was taken and the IFCB instrument number of the IFCB used to collect the sample. A unique sample identifier. 
+
+---
 
 #### `extract_sample_info(self, filepath)`:
 Uses the filepath to extract information about the sample.
@@ -103,6 +111,8 @@ Uses the filepath to extract information about the sample.
 - time (str): Time of collection in the 24-hr form HH:MM:SS[GMT].
 - ifcb_number (str): IFCB number, assumes the instrument number has three digits. If it has more or less, adjust the n_digits value in the code.
 
+---
+
 #### `extract_investigator_info(self, dictionary=upt.default_investigators)`:
 Retrieves investigator information from the config dictionary. 
 
@@ -113,6 +123,8 @@ Retrieves investigator information from the config dictionary.
 - investigators (str): Comma-separated string of investigators with no spaces.
 - affiliations_list (str): Comma-separated string of affiliated organizations with no spaces.
 - emails_list (str): Comma-separated string of the investigators' emails with no spaces.
+
+---
 
 #### `extract_metadata_for_header(self, sample_ID, sample_df, stations_bool, flags_bool)`:
 Extracts sample-specific metadata values from the sample csv and the general metadata csv. 
@@ -136,12 +148,16 @@ Extracts sample-specific metadata values from the sample csv and the general met
 - station (int/str): Indicates which station the sample was taken at. 
 - concentration (float/int): The sample's concentration. 
 
+---
+
 #### `run_sample_checks(self, sample_filename, sample_df)`:
 Checks that the number of rows in the associated data files are as expected. The sample and classification dataframes should have the same number of rows pertaining to the given sampleID, and the metadata dataframe should only have 1. 
 
 ##### Parameters
 - sample_filename (str): Name of the sample csv file.
 - sample_df (DataFrame): The sample-specific dataframe stored in the sample folder.
+
+---
 
 #### `structure_data(self, sample_filename, sample_df)`:
 Compiles and converts sample metadata into the SeaBASS format. Each line of data represents a single image, with comma-separated attributes indicated by the /fields value in the header. 
@@ -153,6 +169,8 @@ Compiles and converts sample metadata into the SeaBASS format. Each line of data
 ##### Returns:
 - data_string (str): The string of SeaBASS-formatted data extracted from the sample_df.
 
+---
+
 #### `write_seabass(self, sample_filename, sample_df)`:
 Combines the header and data into a single, correctly formatted string.
 
@@ -162,3 +180,5 @@ Combines the header and data into a single, correctly formatted string.
 
 ##### Returns:
 - full_string (str): The full SeaBASS-structured string containing header and formatted data sections. 
+
+---

@@ -8,6 +8,8 @@ grand_parent: Repositories
 
 # classified_to_seabass module  
 
+This module contains a class to convert CNN-classified and/or validated datasets to a SeaBASS-compatible format.
+
 ### Imports:
 - pandas
 - numpy

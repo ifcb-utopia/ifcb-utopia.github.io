@@ -17,6 +17,8 @@ grand_parent: Repositories
 
 ### Functions:
 
+---
+
 #### `list_containers_in_blob(connection_string=config_info['connection_string'])`:
 
 Returns a list of the ifcb image containers in the specified Azure Blob storage.

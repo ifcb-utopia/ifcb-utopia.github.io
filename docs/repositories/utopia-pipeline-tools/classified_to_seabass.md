@@ -22,6 +22,8 @@ This module contains a class to convert CNN-classified and/or validated datasets
 
 When initialized, this class loads the classification and metadata csv files and sets up the header values that are consistent across all samples. Also retrieves the file-names of all sample csv files from the sample subfolders within the 'ml' folder.
 
+---
+
 #### `\_\_init\_\_` Parameters:   
 - metadata_filepath (str): Filepath to the metadata file used to convert ifcb data from raw to processed. This file must be a csv and have columns containing lat/long, temperature, salinity, and sample 
 volume, concentration, and flag information.    
@@ -56,7 +58,11 @@ volume, concentration, and flag information.
 - self.sample_filenames (DataFrame): Dataframe of sample metadata csv file names.
 - self.stations_bool (bool): True if station metadata is present.
 
+---
+
 ### Functions:
+
+---
 
 #### `preview_seabass(self, n=0)`:
 Generates the string of a single SeaBASS file. Uses the first csv in the full dataset or the single sample csv depending on how the class was initialized.

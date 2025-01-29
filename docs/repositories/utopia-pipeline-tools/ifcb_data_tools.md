@@ -16,6 +16,8 @@ Contains funcitons to work with locally hosted IFCB images and processed ml fold
 
 ### Functions:
 
+---
+
 #### `retrieve_filepaths_from_local(folder_location)`:
 Retrieves filepaths of all IFCB images in the specified processed data folder location (local). Returns a list of all image filepaths in the ml sub-folders.
 
@@ -24,3 +26,5 @@ Retrieves filepaths of all IFCB images in the specified processed data folder lo
 
 ##### Returns:
 - image_list (list): List of all IFCB image filepaths in a given local folder.
+
+---

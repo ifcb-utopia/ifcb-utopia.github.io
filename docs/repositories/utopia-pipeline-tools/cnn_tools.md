@@ -17,6 +17,8 @@ Functions to work with Keras CNNs used to classify IFCB phytoplankton images.
 
 ### Functions:
 
+---
+
 #### `preprocess_input(image)`:
 Takes in an IFCB .png (or list of IFCB .pngs) and resizes it to fit the 
 input dimensions of the CNN.

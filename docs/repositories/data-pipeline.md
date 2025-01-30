@@ -34,7 +34,7 @@ I have chosen to use Marimo notebooks for this data pipeline. Marimo is an open-
 
 ### Create a new python environment
 
-_Mac/Linux_ 
+_Mac/Linux_  
 
 1. Use anaconda or miniconda to set up a new python environment.
 2. In your prompt, navigate to the folder containing this repo's `environment.yaml` file.
